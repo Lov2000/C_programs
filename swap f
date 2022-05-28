@@ -9,12 +9,8 @@ printf("enter vslue for a");
 printf("%d",a);
 printf("enter vslue for b");
 printf("%d",b);
-
 swap();
-
-
 }
-
 void swap(int x, int y)
 {
 
