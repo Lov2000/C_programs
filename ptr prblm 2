@@ -6,12 +6,9 @@ int main () {
    int  *p1;
    int  **p2;
 
-
 printf("enter value for a  :");
 scanf("%d",&a);
-
-
- p1 = &a;
+p1 = &a;
 p2 = &p1;
 
    printf(" a = %d\n", a );
