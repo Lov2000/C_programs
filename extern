@@ -14,11 +14,6 @@ extern int x;
 } 
 
 
-
-
-
-
-
 int x=20;
 void fun1()
 {
