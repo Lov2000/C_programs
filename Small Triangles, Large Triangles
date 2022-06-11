@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Triangle
+{
+   int a, b, c;
+};
+
+int square(struct Triangle t)
+{
+    int a = t.a, b = t.b, c = t.c;
+    return (a + b + c)*(a + b - c)*(a - b + c)*(-a + b + c);
+}
+
+void sort_by_area(struct Triangle* a, int n)
+{
+    for (int i = 0; i < n; i++)
+        for (int j = i + 1; j < n; j++)
+            if (square(a[i]) > square(a[j]))
+            {
+                struct Triangle temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
+            }
+}
+
+
