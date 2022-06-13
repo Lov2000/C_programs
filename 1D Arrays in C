@@ -2,7 +2,6 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-
 int main()
 {
     int n,sum=0;
@@ -16,4 +15,3 @@ int main()
     printf("%i",sum);
     free(val);
 }
-                        
