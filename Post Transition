@@ -27,6 +27,8 @@ struct town
    int offices_count;
 };
 
+
+
 typedef struct town town;
 
 
