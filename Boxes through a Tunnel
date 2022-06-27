@@ -30,4 +30,3 @@ int is_lower_than_max_height(box b) {
   return 1;
  }
 }
-      
